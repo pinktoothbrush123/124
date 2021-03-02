@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mmomy"
+    tools:context=".LastPart">
+
+    <TextView
+        android:id="@+id/txtLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/alphakind"
+        android:text="As you continue to run"
+        android:textColor="#403D3D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Continue"
+        app:backgroundTint="@color/black"
+        android:fontFamily="@font/alphakind"
+        app:layout_constraintEnd_toEndOf="@+id/txtLast"
+        app:layout_constraintStart_toStartOf="@+id/txtLast"
+        app:layout_constraintTop_toBottomOf="@+id/txtLast" />
+</androidx.constraintlayout.widget.ConstraintLayout>

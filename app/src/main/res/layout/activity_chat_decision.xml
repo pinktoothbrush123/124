@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mmomy"
+    tools:context=".ChatDecision">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView13"
+        android:layout_width="76dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="508dp"
+        android:src="@drawable/amazing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView12"
+        android:layout_width="128dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="72dp"
+        android:src="@drawable/kuyaw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTalkoutcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:fontFamily="@font/alphakind"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#403D3D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtYou"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/alphakind"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#403D3D"
+        app:layout_constraintEnd_toEndOf="@+id/txtTalkoutcome"
+        app:layout_constraintStart_toStartOf="@+id/txtTalkoutcome"
+        app:layout_constraintTop_toBottomOf="@+id/txtTalkoutcome" />
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Continue"
+        app:backgroundTint="@color/black"
+        android:fontFamily="@font/alphakind"
+        app:layout_constraintEnd_toEndOf="@+id/txtYou"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="@+id/txtYou"
+        app:layout_constraintTop_toBottomOf="@+id/txtYou" />
+</androidx.constraintlayout.widget.ConstraintLayout>
